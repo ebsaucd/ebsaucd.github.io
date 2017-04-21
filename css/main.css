@@ -29,8 +29,11 @@ header {
   z-index: 9999;
 }
 
+
+
 .navbar-nav {
   padding-right:50px;
+  z-index: 9999;
 }
 
 .navbar-fixed {
@@ -72,6 +75,13 @@ header {
   background: none;
 }
 
+.navbar-toggle {
+  padding-top: 20px;
+}
+
+.navbar-toggle .icon-bar {
+    background-color: #333;
+}
 
 .line-1 {
   background: #59caec;
@@ -125,6 +135,22 @@ header {
 
 }
 
+@media screen and (max-width: 767px) {
+  .navbar-nav {
+    height:100%;
+    background: white;
+  }
+
+  .link {
+    margin-top:28px;
+    padding-right: 0px;
+    background: white;
+  }
+  .link li{
+    margin:0px;
+
+  }
+}
 
 @media screen and (max-width: 730px) {
   .about .description {
