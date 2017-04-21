@@ -26,6 +26,7 @@ header {
   background-color: white;
   border-bottom: 1px solid #efefef;
   height: 80px;
+  z-index: 9999;
 }
 
 .navbar-nav {
