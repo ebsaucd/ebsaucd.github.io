@@ -274,12 +274,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 /* Common style */
 .grid figure {
 	position: relative;
-	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
 	min-width: 280px;
 	max-width: 280px;
 	max-height: 280px;
+  margin:30px auto;
 	text-align: center;
 	cursor: pointer;
   color:black;
