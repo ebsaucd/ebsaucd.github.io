@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css?v=1.0">
   <link rel="stylesheet" href="css/font-awesome.min.css?v=1.0">
+  <link href="css/full-slider.css" rel="stylesheet">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -33,54 +34,95 @@
 
 <body id="page-top">
 
-  <header>
-    <div class="container">
-      <div class="main-heading">EBSA</div>
-    </div>
-  </header>
 
-  <nav id="nav_bar" class="navbar">
-    <div class="container">
-        <div class="navbar-header navbar-right">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" width="50px" style="margin-top:0px;"/></a>
-        </div>
+  <header id="myCarousel" class="carousel slide">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav navbar-right link">
-                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                <li class="hidden">
-                    <a class="" href="#page-top"></a>
-                </li>
-                <li>
-                    <a class="" href="#about">About</a>
-                </li>
-                <li>
-                    <a class="" href="#board">Board</a>
-                </li>
-                <li>
-                    <a class="" href="#events">Events</a>
-                </li>
-                <li>
-                    <a class="" href="#members">Members</a>
-                </li>
-                <li>
-                    <a class="" href="#photos">Photos</a>
-                </li>
-                <li>
-                    <a class="" href="#apply">Apply</a>
-                </li>
-            </ul>
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for Slides -->
+        <div class="carousel-inner">
+          <div class="header-line">
+          </div>
+          <div class="ebsa-title">
+            Economics and Business Student Association
+          </div>
+            <div class="item active">
+                <!-- Set the first background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/group2.jpg');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the second background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/photo3.jpg');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
+            <div class="item">
+                <!-- Set the third background image using inline CSS below. -->
+                <div class="fill" style="background-image:url('img/photo4.jpg');"></div>
+                <div class="carousel-caption">
+                </div>
+            </div>
         </div>
-        <!-- /.navbar-collapse -->
-    </div>
-  </nav>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+
+    </header>
+
+    <nav id="nav_bar" class="navbar">
+      <div class="container">
+          <div class="navbar-header navbar-right">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" width="50px" style="margin-top:0px;"/></a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav navbar-right link">
+                  <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                  <li class="hidden">
+                      <a class="" href="#page-top"></a>
+                  </li>
+                  <li>
+                      <a class="" href="#about">About</a>
+                  </li>
+                  <li>
+                      <a class="" href="#board">Board</a>
+                  </li>
+                  <li>
+                      <a class="" href="#events">Events</a>
+                  </li>
+                  <li>
+                      <a class="" href="#members">Members</a>
+                  </li>
+                  <li>
+                      <a class="" href="#photos">Photos</a>
+                  </li>
+                  <li>
+                      <a class="" href="#apply">Apply</a>
+                  </li>
+              </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+      </div>
+    </nav>
+
 
   <div id="about" class="about fullPage vertical-center">
     <div class="container">
