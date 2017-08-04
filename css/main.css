@@ -229,6 +229,75 @@ header {
   padding-top:60px;
 }
 
+.apply {
+  padding-bottom:100px;
+}
+
+.apply .title {
+  font-size: 30px;
+  width: 50%;
+  padding:50px 0 0 30px;
+}
+
+.apply .title-2 {
+  font-size: 24px;
+  color:#38B9DE;
+  width: 50%;
+  padding:50px 0 0 30px;
+}
+
+.apply .description {
+  font-size: 18px;
+  padding:20px 0 0 30px;
+}
+
+.apply .pay {
+  padding:80px 0 0 30px;
+}
+
+.apply .pay a{
+  font-size: 24px;
+  background-color: #11a2ca;
+  color:white;
+  padding:15px 30px;
+  border-radius: 40px;
+  border:3px solid #11a2ca;
+}
+
+.apply .pay a:hover{
+  background-color: white;
+  color:#11a2ca;
+  text-decoration: none;
+}
+
+.contact {
+  padding:50px 30px 30px 30px;
+  background: #058DB3;
+  color:white;
+
+}
+
+.contact p {
+  font-size: 17px;
+  opacity:.8;
+}
+
+.contact .title{
+  font-size: 22px;
+  font-weight: bold;
+  width:300px;
+}
+
+.contact .contact-link a{
+  color:white;
+  opacity: .7;
+}
+
+.contact .contact-link a:hover{
+  text-decoration: none;
+  opacity: 1;
+}
+
 /*---------------*/
 /***** Zoe *****/
 /*---------------*/
