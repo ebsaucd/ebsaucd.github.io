@@ -134,6 +134,8 @@ header {
   margin-left: 30px;
 }
 
+
+
 .collapse ul:hover a {
   color: transparent;
 	text-shadow: 0 0 5px #555;
@@ -227,6 +229,17 @@ header {
   text-align: center;
   padding:20px;
   padding-top:60px;
+  margin:auto;
+  width:275px;
+}
+
+.line-2 {
+  background: #59caec;
+  width:60px;
+  height:5px;
+  margin-top:15px;
+  margin-right:4px;
+  float:right;
 }
 
 .apply {
@@ -272,9 +285,12 @@ header {
 
 .contact {
   padding:50px 30px 30px 30px;
-  background: #058DB3;
+  background: #1e5c6e;
   color:white;
-
+  background-image:    url(../img/footer.jpg);
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;
 }
 
 .contact p {
@@ -489,10 +505,17 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 .grid figure p a {
 	margin: 0;
   color:#38b9de;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 }
 
 .grid figure p a:hover {
-  color:#fafafa;
+  color:#a4dbea;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
 }
 
 .grid figure p {
