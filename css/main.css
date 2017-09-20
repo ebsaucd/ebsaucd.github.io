@@ -230,7 +230,7 @@ header {
   padding:20px;
   padding-top:60px;
   margin:auto;
-  width:275px;
+  width:300px;
 }
 
 .line-2 {
@@ -238,8 +238,7 @@ header {
   width:60px;
   height:5px;
   margin-top:15px;
-  margin-right:4px;
-  float:right;
+  margin-left:16px;
 }
 
 .apply {
