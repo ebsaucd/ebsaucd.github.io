@@ -207,6 +207,31 @@ header {
 
 }
 
+#banner {
+  padding-top:100px;
+}
+.image-div-1{
+  float:left;
+  margin-right:.1%;
+  max-width: 19.9%;
+}
+
+.image-div-1 img{
+  width:100%;
+  margin-bottom:.1%;
+}
+
+.image-div-2{
+  float:left;
+  margin-right:.1%;
+  max-width: 19.9%;
+}
+
+.image-div-2 img{
+  width:100%;
+  margin-bottom:.1%;
+}
+
 
 .board {
   background-image: url('../img/group1.jpg');
