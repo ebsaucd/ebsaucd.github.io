@@ -367,6 +367,15 @@ header {
   margin-left:16px;
 }
 
+.members {
+  padding-bottom:100px;
+}
+
+.members .description {
+  font-size: 18px;
+  padding:20px 0 0 30px;
+}
+
 .apply {
   padding-bottom:100px;
 }
